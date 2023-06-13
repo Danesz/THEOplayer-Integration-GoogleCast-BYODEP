@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '12.0'
   s.pod_target_xcconfig    = {  }
   s.vendored_frameworks    = 'THEOplayer-Integration-GoogleCast/THEOplayerGoogleCastIntegration.xcframework'
-  s.ios.dependency 'google-cast-sdk-dynamic-xcframework', '~>4.7.1'
+#  s.ios.dependency 'google-cast-sdk-dynamic-xcframework', '~>4.7.1'
 end
